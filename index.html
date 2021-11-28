@@ -1,0 +1,27 @@
+<head>
+ 
+ <!-- ************************ -->
+ <!-- Begin PWA by dicecca.net -->
+ <!-- ************************ -->
+
+ <link rel="manifest" href="/blog/manifest.json">
+ 
+ <script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/blog/sw.js')
+  .then(function(registration) {
+    console.log('Registration successful, scope is:', registration.scope);
+  })
+  .catch(function(error) {
+    console.log('Service worker registration failed, error:', error);
+  });
+}
+</script>
+ 
+ <!-- ************************ -->
+ <!-- Ends  PWA by dicecca.net -->
+ <!-- ************************ -->
+ 
+ 
+ 
+ </head>
