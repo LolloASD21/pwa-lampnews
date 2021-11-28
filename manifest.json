@@ -1,0 +1,63 @@
+{
+
+  "short_name": "Blog - dicecca.net",
+
+  "name": "dicecca.net - Blog",
+
+  "icons": [
+
+    {
+
+      "src": "/blog/ico/apple-icon-57x57.png",
+
+      "type": "image/png",
+
+      "sizes": "57x57"
+
+    },
+
+    {
+
+      "src": "/blog/ico/favicon-96x96.png",
+
+      "type": "image/png",
+
+      "sizes": "96x96"
+
+    },
+
+	{
+
+      "src": "/blog/ico/apple-icon-144x144.png",
+
+      "type": "image/png",
+
+      "sizes": "144x144"
+
+    },
+
+    {
+
+      "src": "/blog/ico/android-icon-192x192.png",
+
+      "type": "image/png",
+
+      "sizes": "192x192"
+
+    }
+
+  ],
+
+  "start_url": "/blog/index.php",
+
+  "display": "fullscreen",
+
+  "lang": "it-IT",
+
+  "background_color": "#fff",
+
+  "theme_color": "#fff",
+
+  "orientation": "portrait-primary"
+
+}
